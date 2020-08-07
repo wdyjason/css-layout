@@ -12,3 +12,102 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header > img {
+    border-radius: 50%;
+    margin: 10px;
+    position: fixed;
+}
+
+header  h1 {
+    height: 100%;
+    font-weight: bolder;
+    color: white;
+    width: 100%;
+    float: center;
+    text-align: center;
+}
+
+header nav {
+    float: right;
+    position: absolute;
+    right: 10px;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+header li {
+    display: inline-block;
+}
+
+a[href] {
+    color:white;
+}
+
+main {
+    padding-top: 76px;
+}
+
+.description {
+    background-color:whitesmoke;
+    padding-bottom: 30px;
+}
+
+.description img {
+    float: left;
+    margin: 30px 30px 40px 100px;
+    display: inline-block;
+}
+
+.description h2 {
+    font-weight: bolder;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.description-p1 {
+    margin-right: 100px;
+}
+
+.description-p2 {
+    clear: both;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+}
+
+.relationship img {
+    float: right;
+    margin: 30px 100px 40px 30px;
+}
+.relationship {
+    margin-bottom: 300px;
+}
+
+.relationship h2 {
+    font-weight: bolder;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.relationship p {
+    margin-left: 100px;
+}
+
+footer {
+    height: 81px;
+    width: 100%;
+    bottom: 0px;
+    background-color: gray;
+    text-align: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
